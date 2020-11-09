@@ -1,4 +1,4 @@
-/ Kosenko Anastasia, 0324
+// Kosenko Anastasia, 0324
 // https://github.com/nattakkoss/laba
 
 #include <iostream>
