@@ -4,10 +4,10 @@
 #include <iostream>
 using namespace std;
 int main() {
-setlocale(LC_ALL, "Russian")
+setlocale(LC_ALL, "Russian"),
 // 1 задание
 
-cout<<"int: "«sizeof(int)<<"\n";
+cout<<"int: "<<sizeof(int)<<"\n";
 cout<<"short int: "<<sizeof(short int)<<"\n";
 cout<<"long int: "<<sizeof(long int)<<"\n";
 cout<<"float: "<<sizeof(float)<<"\n";
