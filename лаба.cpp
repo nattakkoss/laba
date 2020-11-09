@@ -83,4 +83,44 @@ for (int l = 0; l <= 31; l++)
    arr[0] <<= 1;
   }
 cout << "\n";
+ //Дополнительное задание
+  int p = 1;
+   while (p == 1)
+    {
+        int k;
+        cout << "Инвертирование всех битов:" << "\n";
+        cout << "1 - Инвертировать, 2 - Выйти" << "\n";
+        cin >> k;
+        switch (k) 
+        {
+            case 1:
+                for (int i = 0; i < 32; i++)
+                {
+                    if (massiv[i] == 0) 
+                    {
+                        massiv[i] = 1;
+                    }
+                    else 
+                    {
+                        massiv[i] = 0;
+                    }
+                }
+
+                for (int j = 0; j < 32; j++) 
+                {
+                    cout << massiv[j];
+                    if (j == 0)
+                    {
+                        cout << " ";
+                    }
+                }
+            break;
+
+            case 2:
+                p = 0;
+                break;
+        }
+
+    }
+ 
 }
